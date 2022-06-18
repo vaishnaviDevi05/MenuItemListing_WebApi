@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: menuitemlisting-webapi
-        image: menuitemlisting-webapi
+        image: menuitem.azurecr.io/menuitemlisting-webapirepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
