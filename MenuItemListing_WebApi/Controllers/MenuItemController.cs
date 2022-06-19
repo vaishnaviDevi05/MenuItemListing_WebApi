@@ -16,7 +16,7 @@ namespace MenuItemListing_WebApi.Controllers
         {
                 new MenuItem{Id=1,Name="Fried rice",Price=200,DateOfLaunch=new DateTime(2022,06,18),Active=true,FreeDelivery=false},
                 new MenuItem{Id=2,Name="Butter Naan",Price=100,DateOfLaunch=new DateTime(2022,06,18),Active=true,FreeDelivery=true},
-                new MenuItem{Id=3,Name="Paneer Butter masala",Price=200,DateOfLaunch=new DateTime(2022,06,18),Active=false,FreeDelivery=false}
+                new MenuItem{Id=3,Name="Paneer Butter masala  ",Price=200,DateOfLaunch=new DateTime(2022,06,18),Active=false,FreeDelivery=false}
         };
 
         [HttpGet]
